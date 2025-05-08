@@ -2,9 +2,10 @@
   "auth": { "name": "admin", "password": "admin" },
   "team": [
     {
-      "img": "https://i.imgur.com/VI1HRBu.png",
+      "id":1,
       "name": "Robert Fox",
       "role": "Chef Assistant",
+      "img": "https://i.imgur.com/VI1HRBu.png",
       "media": [
         { "icon": "facebook", "link": "/" },
         { "icon": "instagram", "link": "/" },
@@ -12,9 +13,10 @@
       ]
     },
     {
-      "img": "https://i.imgur.com/nC3KX1u.png",
+      "id":2,
       "name": "Marvin McKinney",
       "role": "Head chef",
+      "img": "https://i.imgur.com/nC3KX1u.png",
       "media": [
         { "icon": "facebook", "link": "/" },
         { "icon": "instagram", "link": "/" },
@@ -22,9 +24,10 @@
       ]
     },
     {
-      "img": "https://i.imgur.com/QK8xUsA.png",
+      "id":3,
       "name": "Savannah Nguyen",
       "role": "Chef Assistant",
+      "img": "https://i.imgur.com/QK8xUsA.png",
       "media": [
         { "icon": "facebook", "link": "/" },
         { "icon": "instagram", "link": "/" },
@@ -32,9 +35,10 @@
       ]
     },
     {
-      "img": "https://i.imgur.com/fC9sElr.png",
+      "id":4,
       "name": "Guy Hawkins",
       "role": "Chef Assistant",
+      "img": "https://i.imgur.com/fC9sElr.png",
       "media": [
         { "icon": "facebook", "link": "/" },
         { "icon": "instagram", "link": "/" },
