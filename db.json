@@ -1,9 +1,181 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "auth": { "name": "admin", "password": "admin" },
+  "team": [
+    {
+      "img": "https://i.imgur.com/VI1HRBu.png",
+      "name": "Robert Fox",
+      "role": "Chef Assistant",
+      "media": [
+        { "icon": "facebook", "link": "/" },
+        { "icon": "instagram", "link": "/" },
+        { "icon": "twitter", "link": "/" }
+      ]
+    },
+    {
+      "img": "https://i.imgur.com/nC3KX1u.png",
+      "name": "Marvin McKinney",
+      "role": "Head chef",
+      "media": [
+        { "icon": "facebook", "link": "/" },
+        { "icon": "instagram", "link": "/" },
+        { "icon": "twitter", "link": "/" }
+      ]
+    },
+    {
+      "img": "https://i.imgur.com/QK8xUsA.png",
+      "name": "Savannah Nguyen",
+      "role": "Chef Assistant",
+      "media": [
+        { "icon": "facebook", "link": "/" },
+        { "icon": "instagram", "link": "/" },
+        { "icon": "twitter", "link": "/" }
+      ]
+    },
+    {
+      "img": "https://i.imgur.com/fC9sElr.png",
+      "name": "Guy Hawkins",
+      "role": "Chef Assistant",
+      "media": [
+        { "icon": "facebook", "link": "/" },
+        { "icon": "instagram", "link": "/" },
+        { "icon": "twitter", "link": "/" }
+      ]
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "menus": {
+    "lunch": [
+      {
+        "name": "Spicy Chickpea Wrap",
+        "price": "$9.50",
+        "ingredients": [
+          "Roasted chickpeas",
+          "shredded lettuce",
+          " tomato",
+          "red onion",
+          "tahini sauce",
+          "whole wheat wrap"
+        ]
+      },
+      {
+        "name": "Grilled Pesto Chicken Sandwich",
+        "price": 11.25,
+        "ingredients": [
+          "Grilled chicken breast",
+          "Basil pesto",
+          "Mozzarella",
+          "Arugula",
+          "Ciabatta bread"
+        ]
+      },
+      {
+        "name": "Southwest Quinoa Bowl",
+        "price": 10.75,
+        "ingredients": [
+          "Quinoa",
+          "Black beans",
+          "Corn",
+          "Avocado",
+          "Cherry tomatoes",
+          "Lime-cilantro dressing"
+        ]
+      },
+      {
+        "name": "BBQ Pulled Jackfruit Sliders",
+        "price": 10.0,
+        "ingredients": [
+          "BBQ jackfruit",
+          "Pickled red cabbage",
+          "Vegan mayo",
+          "Mini brioche buns"
+        ]
+      },
+      {
+        "name": "Creamy Tomato Basil Pasta",
+        "price": 12.0,
+        "ingredients": [
+          "Penne pasta",
+          "Tomato-basil cream sauce",
+          "Parmesan",
+          "Fresh basil",
+          "Garlic"
+        ]
+      }
+    ],
+    "dinner": [
+      {
+        "name": "Seared Salmon with Herb Butter",
+        "price": 18.95,
+        "ingredients": [
+          "Salmon fillet",
+          "Garlic herb butter",
+          "Asparagus",
+          "Roasted potatoes",
+          "Lemon wedge"
+        ]
+      },
+      {
+        "name": "Mushroom Truffle Risotto",
+        "price": 16.5,
+        "ingredients": [
+          "Arborio rice",
+          "Wild mushrooms",
+          "Parmesan",
+          "Truffle oil",
+          "Shallots",
+          "White wine"
+        ]
+      },
+      {
+        "name": "Steak Frites",
+        "price": 21.0,
+        "ingredients": [
+          "Grilled sirloin steak",
+          "Garlic aioli",
+          "Hand-cut fries",
+          "Fresh herbs",
+          "Sea salt"
+        ]
+      },
+      {
+        "name": "Thai Green Curry with Tofu",
+        "price": 15.25,
+        "ingredients": [
+          "Tofu",
+          "Green curry sauce",
+          "Coconut milk",
+          "Bell peppers",
+          "Bamboo shoots",
+          "Jasmine rice"
+        ]
+      },
+      {
+        "name": "Lamb Kofta Platter",
+        "price": 19.75,
+        "ingredients": [
+          "Spiced ground lamb",
+          "Tzatziki sauce",
+          "Grilled pita",
+          "Cucumber salad",
+          "Rice pilaf"
+        ]
+      }
+    ],
+    "tea&coffee": [
+      "Earl Grey Classic",
+      "Jasmine Green Bliss",
+      "Chamomile Calm",
+      "Spiced Chai Latte",
+      "Matcha Zen Brew",
+      "Peppermint Herbal Infusion",
+      "Hibiscus Sunset Tea",
+      "English Breakfast Bold",
+      "Vanilla Rooibos Delight",
+      "Iced Caramel Macchiato",
+      "Mocha Espresso Fusion",
+      "Cold Brew Black",
+      "Flat White Cream",
+      "Hazelnut Americano",
+      "Turmeric Golden Latte"
+    ]
+  }
 }
