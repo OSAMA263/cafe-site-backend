@@ -2,7 +2,7 @@
   "auth": { "name": "admin", "password": "admin" },
   "team": [
     {
-      "id":1,
+      "id": 1,
       "name": "Robert Fox",
       "role": "Chef Assistant",
       "img": "https://i.imgur.com/VI1HRBu.png",
@@ -13,7 +13,7 @@
       ]
     },
     {
-      "id":2,
+      "id": 2,
       "name": "Marvin McKinney",
       "role": "Head chef",
       "img": "https://i.imgur.com/nC3KX1u.png",
@@ -24,7 +24,7 @@
       ]
     },
     {
-      "id":3,
+      "id": 3,
       "name": "Savannah Nguyen",
       "role": "Chef Assistant",
       "img": "https://i.imgur.com/QK8xUsA.png",
@@ -35,7 +35,7 @@
       ]
     },
     {
-      "id":4,
+      "id": 4,
       "name": "Guy Hawkins",
       "role": "Chef Assistant",
       "img": "https://i.imgur.com/fC9sElr.png",
@@ -46,195 +46,193 @@
       ]
     }
   ],
-  "menus": {
-    "lunch": [
-      {
-        "id":1,
-        "name": "Spicy Chickpea Wrap",
-        "price": 9.50,
-        "ingredients": [
-          "Roasted chickpeas",
-          "shredded lettuce",
-          " tomato",
-          "red onion",
-          "tahini sauce",
-          "whole wheat wrap"
-        ]
-      },
-      {
-        "id":2,
-        "name": "Grilled Pesto Chicken Sandwich",
-        "price": 11.25,
-        "ingredients": [
-          "Grilled chicken breast",
-          "Basil pesto",
-          "Mozzarella",
-          "Arugula",
-          "Ciabatta bread"
-        ]
-      },
-      {
-        "id":3,
-        "name": "Southwest Quinoa Bowl",
-        "price": 10.75,
-        "ingredients": [
-          "Quinoa",
-          "Black beans",
-          "Corn",
-          "Avocado",
-          "Cherry tomatoes",
-          "Lime-cilantro dressing"
-        ]
-      },
-      {
-        "id":4,
-        "name": "BBQ Pulled Jackfruit Sliders",
-        "price": 10.0,
-        "ingredients": [
-          "BBQ jackfruit",
-          "Pickled red cabbage",
-          "Vegan mayo",
-          "Mini brioche buns"
-        ]
-      },
-      {
-        "id":5,
-        "name": "Creamy Tomato Basil Pasta",
-        "price": 12.0,
-        "ingredients": [
-          "Penne pasta",
-          "Tomato-basil cream sauce",
-          "Parmesan",
-          "Fresh basil",
-          "Garlic"
-        ]
-      }
-    ],
-    "dinner": [
-      {
-        "id":1,
-        "name": "Seared Salmon with Herb Butter",
-        "price": 18.95,
-        "ingredients": [
-          "Salmon fillet",
-          "Garlic herb butter",
-          "Asparagus",
-          "Roasted potatoes",
-          "Lemon wedge"
-        ]
-      },
-      {
-        "id":2,
-        "name": "Mushroom Truffle Risotto",
-        "price": 16.5,
-        "ingredients": [
-          "Arborio rice",
-          "Wild mushrooms",
-          "Parmesan",
-          "Truffle oil",
-          "Shallots",
-          "White wine"
-        ]
-      },
-      {
-        "id":3,
-        "name": "Steak Frites",
-        "price": 21.0,
-        "ingredients": [
-          "Grilled sirloin steak",
-          "Garlic aioli",
-          "Hand-cut fries",
-          "Fresh herbs",
-          "Sea salt"
-        ]
-      },
-      {
-        "id":4,
-        "name": "Thai Green Curry with Tofu",
-        "price": 15.25,
-        "ingredients": [
-          "Tofu",
-          "Green curry sauce",
-          "Coconut milk",
-          "Bell peppers",
-          "Bamboo shoots",
-          "Jasmine rice"
-        ]
-      },
-      {
-        "id":5,
-        "name": "Lamb Kofta Platter",
-        "price": 19.75,
-        "ingredients": [
-          "Spiced ground lamb",
-          "Tzatziki sauce",
-          "Grilled pita",
-          "Cucumber salad",
-          "Rice pilaf"
-        ]
-      }
-    ],
-    "tea_coffee": [
-      {
-        "id": 1,
-        "name": "Earl Grey Classic"
-      },
-      {
-        "id": 2,
-        "name": "Jasmine Green Bliss"
-      },
-      {
-        "id": 3,
-        "name": "Chamomile Calm"
-      },
-      {
-        "id": 4,
-        "name": "Spiced Chai Latte"
-      },
-      {
-        "id": 5,
-        "name": "Matcha Zen Brew"
-      },
-      {
-        "id": 6,
-        "name": "Peppermint Herbal Infusion"
-      },
-      {
-        "id": 7,
-        "name": "Hibiscus Sunset Tea"
-      },
-      {
-        "id": 8,
-        "name": "English Breakfast Bold"
-      },
-      {
-        "id": 9,
-        "name": "Vanilla Rooibos Delight"
-      },
-      {
-        "id": 10,
-        "name": "Iced Caramel Macchiato"
-      },
-      {
-        "id": 11,
-        "name": "Mocha Espresso Fusion"
-      },
-      {
-        "id": 12,
-        "name": "Cold Brew Black"
-      },
-      {
-        "id": 13,
-        "name": "Flat White Cream"
-      },
-      {
-        "id": 14,
-        "name": "Hazelnut Americano"
-      },
-      {
-        "id": 15,
-        "name": "Turmeric Golden Latte"
-      }
-    ]
-  }
+  "lunch": [
+    {
+      "id": 1,
+      "name": "Spicy Chickpea Wrap",
+      "price": 9.5,
+      "ingredients": [
+        "Roasted chickpeas",
+        "shredded lettuce",
+        " tomato",
+        "red onion",
+        "tahini sauce",
+        "whole wheat wrap"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Grilled Pesto Chicken Sandwich",
+      "price": 11.25,
+      "ingredients": [
+        "Grilled chicken breast",
+        "Basil pesto",
+        "Mozzarella",
+        "Arugula",
+        "Ciabatta bread"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Southwest Quinoa Bowl",
+      "price": 10.75,
+      "ingredients": [
+        "Quinoa",
+        "Black beans",
+        "Corn",
+        "Avocado",
+        "Cherry tomatoes",
+        "Lime-cilantro dressing"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "BBQ Pulled Jackfruit Sliders",
+      "price": 10.0,
+      "ingredients": [
+        "BBQ jackfruit",
+        "Pickled red cabbage",
+        "Vegan mayo",
+        "Mini brioche buns"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Creamy Tomato Basil Pasta",
+      "price": 12.0,
+      "ingredients": [
+        "Penne pasta",
+        "Tomato-basil cream sauce",
+        "Parmesan",
+        "Fresh basil",
+        "Garlic"
+      ]
+    }
+  ],
+  "dinner": [
+    {
+      "id": 1,
+      "name": "Seared Salmon with Herb Butter",
+      "price": 18.95,
+      "ingredients": [
+        "Salmon fillet",
+        "Garlic herb butter",
+        "Asparagus",
+        "Roasted potatoes",
+        "Lemon wedge"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Mushroom Truffle Risotto",
+      "price": 16.5,
+      "ingredients": [
+        "Arborio rice",
+        "Wild mushrooms",
+        "Parmesan",
+        "Truffle oil",
+        "Shallots",
+        "White wine"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Steak Frites",
+      "price": 21.0,
+      "ingredients": [
+        "Grilled sirloin steak",
+        "Garlic aioli",
+        "Hand-cut fries",
+        "Fresh herbs",
+        "Sea salt"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Thai Green Curry with Tofu",
+      "price": 15.25,
+      "ingredients": [
+        "Tofu",
+        "Green curry sauce",
+        "Coconut milk",
+        "Bell peppers",
+        "Bamboo shoots",
+        "Jasmine rice"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Lamb Kofta Platter",
+      "price": 19.75,
+      "ingredients": [
+        "Spiced ground lamb",
+        "Tzatziki sauce",
+        "Grilled pita",
+        "Cucumber salad",
+        "Rice pilaf"
+      ]
+    }
+  ],
+  "tea_coffee": [
+    {
+      "id": 1,
+      "name": "Earl Grey Classic"
+    },
+    {
+      "id": 2,
+      "name": "Jasmine Green Bliss"
+    },
+    {
+      "id": 3,
+      "name": "Chamomile Calm"
+    },
+    {
+      "id": 4,
+      "name": "Spiced Chai Latte"
+    },
+    {
+      "id": 5,
+      "name": "Matcha Zen Brew"
+    },
+    {
+      "id": 6,
+      "name": "Peppermint Herbal Infusion"
+    },
+    {
+      "id": 7,
+      "name": "Hibiscus Sunset Tea"
+    },
+    {
+      "id": 8,
+      "name": "English Breakfast Bold"
+    },
+    {
+      "id": 9,
+      "name": "Vanilla Rooibos Delight"
+    },
+    {
+      "id": 10,
+      "name": "Iced Caramel Macchiato"
+    },
+    {
+      "id": 11,
+      "name": "Mocha Espresso Fusion"
+    },
+    {
+      "id": 12,
+      "name": "Cold Brew Black"
+    },
+    {
+      "id": 13,
+      "name": "Flat White Cream"
+    },
+    {
+      "id": 14,
+      "name": "Hazelnut Americano"
+    },
+    {
+      "id": 15,
+      "name": "Turmeric Golden Latte"
+    }
+  ]
 }
