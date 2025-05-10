@@ -51,7 +51,7 @@
       {
         "id":1,
         "name": "Spicy Chickpea Wrap",
-        "price": "9.50",
+        "price": 9.50,
         "ingredients": [
           "Roasted chickpeas",
           "shredded lettuce",
